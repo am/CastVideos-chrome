@@ -159,10 +159,10 @@ CastPlayer.prototype.onInitSuccess = function() {
 };
 
 /**
- * Generic error callback function 
+ * Generic error callback function
  */
-CastPlayer.prototype.onError = function() {
-  console.log("error");
+CastPlayer.prototype.onError = function(e) {
+  console.log("error", e);
 };
 
 /**
